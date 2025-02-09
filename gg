@@ -1,0 +1,18 @@
+cd KaleidoFinance-Auto-Bot
+
+npm install
+
+nano wallets.txt
+
+- 0x68EeB821110616573D7dCEa68B3aa032aDD983f2
+- CTRL X > Y - Exit
+
+npm run start
+
+Create Screen stop node first
+apt install screen
+
+cd KaleidoFinance-Auto-Bot
+
+screen -Rd Kaleidos
+npm run start
